@@ -6,7 +6,7 @@
 /*   By: rnabil <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/28 10:43:47 by rnabil            #+#    #+#             */
-/*   Updated: 2021/12/03 18:18:35 by rnabil           ###   ########.fr       */
+/*   Updated: 2021/12/04 20:44:31 by rnabil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,17 +14,19 @@
 
 char	*ft_strchr(const char *s, int c)
 {
-	char	*a;
+	unsigned char	*a;
 
-	a = (char *)s;
+	if (!s)
+		return (NULL);
+	a = (unsigned char *)s;
 	while (*a)
 	{
-		if (*a == c)
-			return (a);
+		if (*a == (unsigned char)c)
+			return ((char *)a);
 		a++;
 	}
 	if (c == '\0')
-		return (a);
+		return ((char *)a);
 	return (NULL);
 }
 
