@@ -6,7 +6,7 @@
 /*   By: rnabil <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/28 04:57:15 by rnabil            #+#    #+#             */
-/*   Updated: 2021/11/28 04:59:11 by rnabil           ###   ########.fr       */
+/*   Updated: 2021/12/05 14:55:14 by rnabil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,3 @@ size_t	ft_strlen(const char *s)
 		a++;
 	return (a);
 }
-/*int main(void)
-{
-	printf("%zu",ft_strlen("hello world"));
-	return 0;
-}*/

@@ -6,7 +6,7 @@
 /*   By: rnabil <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/28 05:01:31 by rnabil            #+#    #+#             */
-/*   Updated: 2021/12/02 21:16:03 by rnabil           ###   ########.fr       */
+/*   Updated: 2021/12/05 17:49:00 by rnabil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,11 +29,3 @@ char	*ft_strdup(const char *s1)
 	a[i] = '\0';
 	return (a);
 }
-/*int main(void)
-{
-	char *a = ft_strdup("");
-	char *b = strdup("");
-	printf("original:%s\nmyfunction:%s",b,a);
-	free(a);
-	return 0;
-}*/

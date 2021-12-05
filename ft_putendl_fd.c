@@ -6,7 +6,7 @@
 /*   By: rnabil <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/29 11:57:35 by rnabil            #+#    #+#             */
-/*   Updated: 2021/12/04 14:08:46 by rnabil           ###   ########.fr       */
+/*   Updated: 2021/12/05 18:46:28 by rnabil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,3 @@ void	ft_putendl_fd(char *s, int fd)
 	ft_putstr_fd(s, fd);
 	ft_putchar_fd('\n', fd);
 }
-/*#include <fcntl.h>
-int main()
-{
-	char str[] = "1337";
-	int fd = open("file.txt", O_CREAT | O_RDWR);
-	ft_putendl_fd(str, fd);
-	close (fd);
-}*/

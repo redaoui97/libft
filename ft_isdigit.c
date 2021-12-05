@@ -6,7 +6,7 @@
 /*   By: rnabil <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/28 04:47:34 by rnabil            #+#    #+#             */
-/*   Updated: 2021/11/28 04:49:17 by rnabil           ###   ########.fr       */
+/*   Updated: 2021/12/05 14:50:32 by rnabil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,3 @@ int	ft_isdigit(int c)
 	else
 		return (0);
 }
-/*int main(void)
-{
-	printf("%d",ft_isdigit('0'));
-	return 0;
-}*/

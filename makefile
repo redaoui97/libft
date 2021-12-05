@@ -6,7 +6,7 @@
 #    By: rnabil <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/28 02:25:57 by rnabil            #+#    #+#              #
-#    Updated: 2021/12/03 19:05:57 by rnabil           ###   ########.fr        #
+#    Updated: 2021/12/05 14:25:59 by rnabil           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -36,8 +36,8 @@ $(NAME): $(OBJS)
 bonus: all $(BNS_OBJS)
 	$(AR) $(NAME) $(BNS_OBJS)
 
-%.o: %.c
-	$(CC) $(FLAGS) -c $? -o $@
+%.o: %.c libft.h
+	$(CC) $(FLAGS) -c $< -o $@
 
 clean:
 	rm -f $(OBJS) $(BNS_OBJS)

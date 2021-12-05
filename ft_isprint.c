@@ -6,7 +6,7 @@
 /*   By: rnabil <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/28 04:55:31 by rnabil            #+#    #+#             */
-/*   Updated: 2021/11/28 04:57:07 by rnabil           ###   ########.fr       */
+/*   Updated: 2021/12/05 14:53:51 by rnabil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,3 @@ int	ft_isprint(int c)
 	else
 		return (0);
 }
-/*int	main(void)
-{
-	printf("%d",ft_isprint('a'));
-	return 0;
-}*/

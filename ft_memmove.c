@@ -6,7 +6,7 @@
 /*   By: rnabil <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/28 05:57:31 by rnabil            #+#    #+#             */
-/*   Updated: 2021/12/03 11:14:19 by rnabil           ###   ########.fr       */
+/*   Updated: 2021/12/05 15:26:18 by rnabil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,13 +36,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
-/*int main(void)
-{
-	char *a = ft_strdup("hello");
-	char *b = (char *)malloc (sizeof(char) * 6);
-	size_t x = 2;
-	printf("%s\n%s",ft_memmove(a, a+1, x),memmove(c, c+1,x));
-	free(a);
-	free(b);
-	return 0;
-}*/

@@ -6,7 +6,7 @@
 /*   By: rnabil <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/29 11:59:19 by rnabil            #+#    #+#             */
-/*   Updated: 2021/12/04 18:48:52 by rnabil           ###   ########.fr       */
+/*   Updated: 2021/12/05 17:56:39 by rnabil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,3 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putchar_fd(a % 10 + '0', fd);
 	}
 }
-
-/*int main(void)
-{
-	ft_putnbr_fd(12312, 1);
-	return 0;
-}*/

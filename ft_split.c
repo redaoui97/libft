@@ -6,7 +6,7 @@
 /*   By: rnabil <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/03 11:56:56 by rnabil            #+#    #+#             */
-/*   Updated: 2021/12/04 14:42:18 by rnabil           ###   ########.fr       */
+/*   Updated: 2021/12/05 17:52:09 by rnabil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,19 +96,3 @@ char	**ft_split(char const *s, char c)
 	fill_words(words, s, c, words_count);
 	return (words);
 }
-
-/*int main(void)
-{
-    char *a = ft_strdup("split  ||this|for|me|||||!|");
-    char **words = ft_split(a, '|');
-    int i = 0;
-
-	printf("words : %d\n", count_parts(a, '|'));
-    while (words[i])
-	{
-        printf("%d : %s\n",i, words[i]);
-		i++;
-	}
-	free(words);
-    return 0;
-}*/

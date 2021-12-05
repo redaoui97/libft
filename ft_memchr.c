@@ -6,7 +6,7 @@
 /*   By: rnabil <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/28 11:02:27 by rnabil            #+#    #+#             */
-/*   Updated: 2021/11/28 11:23:03 by rnabil           ###   ########.fr       */
+/*   Updated: 2021/12/05 17:39:49 by rnabil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,11 +25,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-/*int main(void)
-{
-	char *a = "hello";
-	char b = 'l';
-	size_t c = 5;
-	printf("%s\n%s",ft_memchr(a,b,c),memchr(a,b,c));
-	return 0;
-}*/

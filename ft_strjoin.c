@@ -6,7 +6,7 @@
 /*   By: rnabil <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/29 08:57:17 by rnabil            #+#    #+#             */
-/*   Updated: 2021/12/02 21:12:59 by rnabil           ###   ########.fr       */
+/*   Updated: 2021/12/05 17:50:34 by rnabil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,10 +35,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	a[i] = '\0';
 	return (a);
 }
-
-/*int main(void)
-{
-	char *a = ft_strjoin("hello ","world");
-	printf("%s",a);
-	return 0;
-}*/

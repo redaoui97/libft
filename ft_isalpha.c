@@ -6,7 +6,7 @@
 /*   By: rnabil <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/28 02:23:10 by rnabil            #+#    #+#             */
-/*   Updated: 2021/11/28 04:47:24 by rnabil           ###   ########.fr       */
+/*   Updated: 2021/12/05 14:49:37 by rnabil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,8 +35,3 @@ int	ft_isalpha(int c)
 	else
 		return (0);
 }
-/*int main(void)
-{
-	printf("%d",ft_isalpha('\0'));
-	return 0;
-}*/

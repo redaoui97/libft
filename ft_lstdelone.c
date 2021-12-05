@@ -6,7 +6,7 @@
 /*   By: rnabil <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/30 14:05:46 by rnabil            #+#    #+#             */
-/*   Updated: 2021/11/30 18:13:58 by rnabil           ###   ########.fr       */
+/*   Updated: 2021/12/05 17:59:53 by rnabil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,17 +19,3 @@ void	ft_lstdelone(t_list *lst, void (*del)(void*))
 	del(lst->content);
 	free(lst);
 }
-
-/*int main(void)
-{
-	char	*word = ft_strdup("word 1");
-	char	*word2 = ft_strdup("word 2");
-	t_list	*a = ft_lstnew(word);
-	t_list	*b = ft_lstnew(word2);
-	t_list	*lst;
-	ft_lstadd_front(&lst, b);
-	ft_lstadd_front(&lst, a);
-	ft_lstdelone(lst, free);
-	printf("First: %p+%p\nSecond: %s",lst,lst->next,lst->next->content);
-	return 0;
-}*/

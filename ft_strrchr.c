@@ -6,7 +6,7 @@
 /*   By: rnabil <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/29 12:05:17 by rnabil            #+#    #+#             */
-/*   Updated: 2021/12/04 20:00:09 by rnabil           ###   ########.fr       */
+/*   Updated: 2021/12/05 16:32:30 by rnabil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,9 +29,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-
-/*int main(void)
-{
-	printf("%s",ft_strrchr("hello world",'l'));
-	return 0;
-}*/

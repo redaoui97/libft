@@ -6,7 +6,7 @@
 /*   By: rnabil <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/28 12:12:49 by rnabil            #+#    #+#             */
-/*   Updated: 2021/12/04 14:10:17 by rnabil           ###   ########.fr       */
+/*   Updated: 2021/12/05 17:44:45 by rnabil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,8 +40,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
-
-/*int main()
-{
-	printf("%s",ft_strnstr("hello world","hello", 10));
-}*/

@@ -6,7 +6,7 @@
 /*   By: rnabil <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/29 13:19:42 by rnabil            #+#    #+#             */
-/*   Updated: 2021/12/01 13:51:18 by rnabil           ###   ########.fr       */
+/*   Updated: 2021/12/05 17:57:16 by rnabil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,11 +23,3 @@ t_list	*ft_lstnew(void *content)
 	a->next = NULL;
 	return (a);
 }
-
-/*int main(void)
-{
-	t_list *a = ft_lstnew("hello world");
-
-	printf("%s",a->content);
-	return 0;
-}*/

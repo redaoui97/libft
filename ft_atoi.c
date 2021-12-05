@@ -6,7 +6,7 @@
 /*   By: rnabil <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/28 13:06:30 by rnabil            #+#    #+#             */
-/*   Updated: 2021/12/04 15:09:33 by rnabil           ###   ########.fr       */
+/*   Updated: 2021/12/05 17:46:00 by rnabil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,9 +46,3 @@ int	ft_atoi(const char *str)
 	else
 		return (res);
 }
-
-/*int main()
-{
-	printf("t:%d\nv:%d\nf:%d\nr:%d\nn:%d\nspc:%d\n",'\t','\v','\f','\r','\n',' ');
-	printf("%d",ft_atoi("    +521"));
-}*/

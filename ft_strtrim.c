@@ -6,7 +6,7 @@
 /*   By: rnabil <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/29 09:04:50 by rnabil            #+#    #+#             */
-/*   Updated: 2021/12/04 14:45:41 by rnabil           ###   ########.fr       */
+/*   Updated: 2021/12/05 17:51:22 by rnabil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,11 +52,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	a[i] = 0;
 	return (a);
 }
-
-/*int main(void)
-{
-	char *a = ft_strtrim("hello world", "hedo");
-	printf("%s",a);
-	free(a);
-	return 0;
-}*/

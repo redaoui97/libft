@@ -6,7 +6,7 @@
 /*   By: rnabil <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/28 04:49:26 by rnabil            #+#    #+#             */
-/*   Updated: 2021/11/28 04:51:53 by rnabil           ###   ########.fr       */
+/*   Updated: 2021/12/05 14:51:52 by rnabil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,3 @@ int	ft_isalnum(int c)
 	else
 		return (0);
 }
-
-/*int	main(void)
-{
-	printf("%d",ft_isalnum('\0'));
-	return 0;
-}*/

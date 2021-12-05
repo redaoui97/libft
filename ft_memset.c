@@ -6,7 +6,7 @@
 /*   By: rnabil <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/28 04:59:21 by rnabil            #+#    #+#             */
-/*   Updated: 2021/12/03 17:51:16 by rnabil           ###   ########.fr       */
+/*   Updated: 2021/12/05 15:06:56 by rnabil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,3 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
-/*int main(void)
-{
-	char *a = ft_strdup("hello");
-	ft_memset(a,'i',5);
-	printf("%s",a);
-		free (a);
-		return 0;
-}*/
